@@ -1,93 +1,24 @@
-%      videos={ '/media/agkann/Elements1/Imaging/155/expplan155.tif', ...
-%               '/media/agkann/Elements1/Imaging/156/expplan156.tif', ...
-%               '/media/agkann/Elements1/Imaging/157/expplan157.tif', ...
-%               '/media/agkann/Elements1/Imaging/158/expplan158.tif', ...
-%               '/media/agkann/Elements1/Imaging/163/expplan163.tif', ...
-%               '/media/agkann/Elements1/Imaging/164/expplan164.tif', ...
-%               '/media/agkann/Elements1/Imaging/165/expplan165.tif', ...
-%               '/media/agkann/Elements1/Imaging/166/expplan166.tif', ...
-%               '/media/agkann/Elements1/Imaging/167/expplan167.tif', ...
-%               '/media/agkann/Elements1/Imaging/168/expplan168.tif', ...
-%               '/media/agkann/Elements1/Imaging/170/expplan170.tif', ...
-%               '/media/agkann/Elements1/Imaging/171/expplan171.tif', ...
-%               '/media/agkann/Elements1/Imaging/172/expplan172.tif', ...
-%               '/media/agkann/Elements1/Imaging/173/expplan173.tif', ...
-%               '/media/agkann/Elements1/Imaging/174/expplan174.tif', ...
-%               '/media/agkann/Elements1/Imaging/175/expplan175.tif', ...
-%               '/media/agkann/Elements1/Imaging/176/expplan176.tif', ...
-%               '/media/agkann/Elements1/Imaging/177/expplan177.tif', ...
-%               '/media/agkann/Elements1/Imaging/189/expplan189.tif', ...
-%               '/media/agkann/Elements1/Imaging/190/expplan190.tif', ...
-%               '/media/agkann/Elements1/Imaging/191/expplan191.tif', ...
-%               '/media/agkann/Elements1/Imaging/192/expplan192.tif', ...
-%               '/media/agkann/Elements1/Imaging/194/expplan194.tif', ...
-%               '/media/agkann/Elements1/Imaging/195/expplan195.tif', ...
-%              };
-% 
-%       ROIs={  '/media/agkann/Elements1/Imaging/155/denois_RoiSet_155/', ...
-%               '/media/agkann/Elements1/Imaging/156/denois_RoiSet_155/', ...
-%               '/media/agkann/Elements1/Imaging/157/denois_RoiSet_157/', ...
-%               '/media/agkann/Elements1/Imaging/158/denois_RoiSet_157/', ...
-%               '/media/agkann/Elements1/Imaging/163/denois_RoiSet_163/', ...
-%               '/media/agkann/Elements1/Imaging/164/denois_RoiSet_163/', ...
-%               '/media/agkann/Elements1/Imaging/165/denois_RoiSet_165/', ...
-%               '/media/agkann/Elements1/Imaging/166/denois_RoiSet_165/', ...
-%               '/media/agkann/Elements1/Imaging/167/denois_RoiSet_167/', ...
-%               '/media/agkann/Elements1/Imaging/168/denois_RoiSet_167/', ...
-%               '/media/agkann/Elements1/Imaging/170/denois_RoiSet_170/', ...
-%               '/media/agkann/Elements1/Imaging/171/denois_RoiSet_170/', ...
-%               '/media/agkann/Elements1/Imaging/172/denois_RoiSet_172/', ...
-%               '/media/agkann/Elements1/Imaging/173/denois_RoiSet_172/', ...
-%               '/media/agkann/Elements1/Imaging/174/denois_RoiSet_174/', ...
-%               '/media/agkann/Elements1/Imaging/175/denois_RoiSet_174/', ...
-%               '/media/agkann/Elements1/Imaging/176/denois_RoiSet_176/', ...
-%               '/media/agkann/Elements1/Imaging/177/denois_RoiSet_176/', ...
-%               '/media/agkann/Elements1/Imaging/189/denois_RoiSet_189/', ...
-%               '/media/agkann/Elements1/Imaging/190/denois_RoiSet_189/', ...
-%               '/media/agkann/Elements1/Imaging/191/denois_RoiSet_191/', ...
-%               '/media/agkann/Elements1/Imaging/192/denois_RoiSet_191/', ...
-%               '/media/agkann/Elements1/Imaging/194/denois_RoiSet_194/', ...
-%               '/media/agkann/Elements1/Imaging/195/denois_RoiSet_194/', ...
-%              };
-% 
-%           
-%    Savedir={  '/media/agkann/Elements1/Imaging/155/Cleaned_traces_155', ...
-%               '/media/agkann/Elements1/Imaging/156/Cleaned_traces_156', ...
-%               '/media/agkann/Elements1/Imaging/157/Cleaned_traces_157', ...
-%               '/media/agkann/Elements1/Imaging/158/Cleaned_traces_158', ...
-%               '/media/agkann/Elements1/Imaging/163/Cleaned_traces_163', ...
-%               '/media/agkann/Elements1/Imaging/164/Cleaned_traces_164', ...
-%               '/media/agkann/Elements1/Imaging/165/Cleaned_traces_165', ...
-%               '/media/agkann/Elements1/Imaging/166/Cleaned_traces_166', ...
-%               '/media/agkann/Elements1/Imaging/167/Cleaned_traces_167', ...
-%               '/media/agkann/Elements1/Imaging/168/Cleaned_traces_168', ...
-%               '/media/agkann/Elements1/Imaging/170/Cleaned_traces_170', ...
-%               '/media/agkann/Elements1/Imaging/171/Cleaned_traces_171', ...
-%               '/media/agkann/Elements1/Imaging/172/Cleaned_traces_172', ...
-%               '/media/agkann/Elements1/Imaging/173/Cleaned_traces_173', ...
-%               '/media/agkann/Elements1/Imaging/174/Cleaned_traces_174', ...
-%               '/media/agkann/Elements1/Imaging/175/Cleaned_traces_175', ...
-%               '/media/agkann/Elements1/Imaging/176/Cleaned_traces_176', ...
-%               '/media/agkann/Elements1/Imaging/177/Cleaned_traces_177', ...
-%               '/media/agkann/Elements1/Imaging/189/Cleaned_traces_189', ...
-%               '/media/agkann/Elements1/Imaging/190/Cleaned_traces_190', ...
-%               '/media/agkann/Elements1/Imaging/191/Cleaned_traces_191', ...
-%               '/media/agkann/Elements1/Imaging/192/Cleaned_traces_192', ...
-%               '/media/agkann/Elements1/Imaging/194/Cleaned_traces_194', ...
-%               '/media/agkann/Elements1/Imaging/195/Cleaned_traces_195', ...
-%              };          
-videos={ 'F:\Imaging Setup\232_analysis\232.tif'};
-ROIs={  'F:\Imaging Setup\232_analysis\RoiSet_232\'};
-Savedir={  'F:\Imaging Setup\232_analysis\Cleaned_traces_232'};
+%% Directory for tif files, ROIs (regions of interest) produced by imageJ and directory for saving output which is traces of calcium fluorescent signal
+%of all ROIs 
+
+videos={ '/media/file_1.tif', ...
+         '/media/file_2.tif', ...
+       };
+ 
+ROIs={  '/media/denois_RoiSet_1/', ...
+        '/media/denois_RoiSet_2/', ...
+     };
+
+Savedir={  '/media/Cleaned_traces_1', ...
+           '/media/Cleaned_traces_2', ...
+        };          
+
 %%
- for file=1:length(videos);    
+for file=1:length(videos);    
     
-%% loading videos and ROIs
+% loading videos and ROIs
 fr= 4;              %%frames per second of the recording%%
-%nam = '/media/agkann/Elements/PhD/Experiments/Rotenone Calcium Imaging/5.May/20180507/Imaging/157/expplan157.tif';          % insert path to tiff stack here
 nam = videos{file};
-
-
 fileinfo=imfinfo(nam);
 for i=1:length(fileinfo)
     Y(:,:,i:i)=double(imread(nam,i));
@@ -99,44 +30,39 @@ d = d1*d2;
 clear nam T
 
 %%%% Extracting ROIs (masks) %%%%
-
 directory=dir(ROIs{file});
-%directory='/media/agkann/Elements/PhD/Experiments/Rotenone Calcium Imaging/5.May/20180507/Imaging/157/Analysis/denois_RoiSet_157/';  %%% wirte the directory for the unzipped folder of ROIs %%%
 numOFrois=length(directory)-2;
 cellOFrois=cell(numOFrois,1);
 for i=1:numOFrois
-[sROI] = ReadImageJROI([ROIs{file} '/' num2str(directory(i+2).name)]); %'/media/agkann/Elements/PhD/Experiments/Rotenone Calcium Imaging/4.April/20180426/Submerged/imaging/146/Analysis/RoiSet_146/' num2str(directory(i+2).name)]);
-%[sROI] = ReadImageJROI(['/media/agkann/Elements/PhD/Experiments/Rotenone Calcium Imaging/5.May/20180507/Imaging/157/Analysis/denois_RoiSet_157/' num2str(directory(i+2).name)]); 
-cellOFrois{i}=sROI.mnCoordinates;
-%clear sROI
+    [sROI] = ReadImageJROI([ROIs{file} '/' num2str(directory(i+2).name)]); 
+    cellOFrois{i}=sROI.mnCoordinates;
 end
 
 resiz_factor= 1; % Insert the resizing factor of Y (the image in the main script)
-test(1:d,numOFrois)=zeros;                                      %%% dont know what was that for
+test(1:d,numOFrois)=zeros;                               
 
 mask_=[];
 for ii=1:numOFrois
-mask=poly2mask(round(cellOFrois{ii}(:,1)),round(cellOFrois{ii}(:,2)),d1/resiz_factor,d2/resiz_factor);
-masksmall=imresize(mask,resiz_factor);
-mask_(:,:,ii)=masksmall;
-
+    mask=poly2mask(round(cellOFrois{ii}(:,1)),round(cellOFrois{ii}(:,2)),d1/resiz_factor,d2/resiz_factor);
+    masksmall=imresize(mask,resiz_factor);
+    mask_(:,:,ii)=masksmall;
 clear mask onedimMASK onedimINTENSITY
-
 end
 clear d d1 d2 i ii masksmall numOFrois sROI cellOFrois directory test resiz_factor
-  %% BG deduction
+
+%% BG deduction
 tic
 interv_length=0.25*size(Y,3);
 %determine which ROI represents the BG, based on its size
 for i=1:size(mask_,3)                                                              
-sizes(i)=length(find(mask_(:,:,i)));                                                % find the roi with the largest size
+    sizes(i)=length(find(mask_(:,:,i)));                                            % find the roi with the largest size
 end , [~,liveBG] = max(sizes); clear i sizes                                        % take its index 
- 
-  where_to_get_BG='only_live_tissue';
- %where_to_get_BG='the_whole_field'
 
-    switch where_to_get_BG
+%% determine whether background is the whole field (including no tissue) or only the live tissue
+where_to_get_BG='only_live_tissue';
+%where_to_get_BG='the_whole_field'
 
+switch where_to_get_BG
       case 'only_live_tissue'
             % build the SD projection
             for x=1:size(Y,1)
@@ -208,11 +134,10 @@ end , [~,liveBG] = max(sizes); clear i sizes                                    
             end 
             BG_pxls_traces=pic; low_pxl_value=min(min(pic)); clear pic a j Index ;  % calculate also the lowest value inside the ROI representing BG , to be added later as an offset to avoid negative values
             BG_timeaverage=mean(BG_pxls_traces,1);                                  % produce a trace based on the average of the BG activity 
-    end
+end
 
 % create best fit for the BG trace over time
-    %BG_yfit=expofit4CA(1:length(BG_timeaverage),BG_timeaverage);                    % taking the best fit to be used as baseline (JO's function)
-     BG_yfit=shehab_oldfit(BG_timeaverage,interv_length);                            % taking the best fit to be used as baseline (my function)
+     BG_yfit=fit_function(BG_timeaverage,interv_length);                            % taking the best fit to be used as baseline
 
 % subtract BG fit from each pixel
 old_Y=Y;
@@ -225,6 +150,7 @@ disp('Background is denoised');
 toc
 
 clear BG_pxls_traces BG_timeaverage BG_yfit IND liveBG low_pxl_value oneD_SD_BG SD_BG SD_proj sort_oneD_SD_BG strt_ind thresh where_to_get_BG
+
 %% Calculating diff. variables
 %%% In this section, variables are extracted from raw data, and a guideMAT is created, including when do POTENTIAL events (true or false) ROUGHLY
 %%% take place (start and end points are not precise). Then a newguideMAT is created with the POTENTIAL events sorted as TRUE (1) or FALSE (2) events.
@@ -233,12 +159,12 @@ checker=[];
 checker_indMAT=[];
 
 tic
-interv_length=0.25*size(Y,3);                                                                                     % choose length of interval used for baseline fitting
+interv_length=0.25*size(Y,3);                                                                          % choose length of interval used for baseline fitting
 
 newguideMAT(1:size(mask_,3),1:size(Y,3))=zeros;                                                        % preallocate 'newguideMAT' to avoid 
 
 for roi=1:size(mask_,3)
-        [~, timeaverage_out, timemedian_out, pxls_traces_out]= shehab_border_ofROI(mask_(:,:,roi), Y); % this is a function that provides info (pixels and values of pxls) about the borders surrounding each ROI
+        [~, timeaverage_out, timemedian_out, pxls_traces_out]= border_ofROI(mask_(:,:,roi), Y); % this is a function that provides info (pixels and values of pxls) about the borders surrounding each ROI
         [Index]=find(mask_(:,:,roi)==1);
         for j=1:size(Y,3)
             a=Y(:,:,j);
@@ -250,6 +176,7 @@ for roi=1:size(mask_,3)
                                            globaltimeaverage_out(roi,1:length(timeaverage_out))=timeaverage_out;     
         timemedian =median(pxls_traces,1); globaltimemedian (roi,1:length(timemedian)) =timemedian;    % timemedian for each ROI is produced and stored in globaltimemedian according to its order among other ROIs
         %generalstd=std(pxls_traces,1);                                                                 % calculating the std of the values of pxls within the examined ROI
+
 %%%%THRESHOLD for number of clusters%%%%       
 %         for i=1:length(generalstd)                                                  % forloop for setting the number of clusters (no_of_k) based on the std (generalstd)
 %             if      generalstd(i)>=prctile(generalstd,99.7);no_of_k(roi,i)=3;           % threshold is 2 STD points (99.7%)
@@ -262,7 +189,7 @@ for roi=1:size(mask_,3)
         %time10prctile=prctile(pxls_traces,10,1);                                   % the value of certain percentile (whatever is decided) is calculated here 
         %yfit=expofit4CA(1:length(time10prctile),time10prctile);                    % taking the best fit to be used as a baseline  (exponential fitting)
         %yfit(1:length(globaltimeaverage(roi,:)),1)=median(globaltimeaverage(roi,:));  % yfit based on median, this fits (probably) when video is denoised from before (using gaussian blur in FIJI)  
-        yfit=shehab_oldfit(globaltimeaverage(roi,:),interv_length);                % taking the best fit to be used as a baseline  (alternative method based on linear fitting between chosen points)
+        yfit=fit_function(globaltimeaverage(roi,:),interv_length);                % taking the best fit to be used as a baseline  (alternative method based on linear fitting between chosen points)
         globalyfit(roi,1:length(yfit))=yfit;                                        % saving the best fit of each ROI in globalyfit according to its order among other ROIs
         [~, d1ydx, ~, d2ydx]=first_second_derivative(1, timeaverage);               % calculates first & second derivative 
         globald1ydx(roi,1:length(d1ydx))=d1ydx;                                     % the first derivative for all ROIs
@@ -272,6 +199,7 @@ for roi=1:size(mask_,3)
 %%%%THRESHOLD defining what is an event, based on the prctile of pxls crossing the baseline%%%%        
         guideMAT=(prctile(pxls_traces,5,1)>yfit');                                  % a binary matrix with ones at time points when the lowest (whatever percentile) is higher than the baseline
         indMAT(:,1)=find(diff(guideMAT)==1);                                        % find the ROUGHLY STARTing point for potential events (time points when the lowest (whatever percentile) is higher than the baseline)
+
 %%%%%%% XX is to deal with any ROI that is active from the first frame
             XX=find(diff(guideMAT)==-1);
             if   guideMAT(1,1)==1                                                   % **** if the trace starts with an active cell 
@@ -290,6 +218,7 @@ for roi=1:size(mask_,3)
            %if  indMAT(noOFevents,2)-indMAT(noOFevents,1) >=  2             %%%%%%%%% arbitrary number of frames set to be the minimum temporal size for an event  ###### for low frame rate this is problem ########
                %bef_last_checker{noOFevents,roi}=1:size(indMAT,1);
                 for frame=indMAT(noOFevents,1):indMAT(noOFevents,2)
+
 %%%%THRESHOLD defining what is a TRUE event based on the average (or median) value of the border crossing certain prctile of pxls within a ROI%%%%  
                 last_checker{noOFevents,roi}=indMAT(noOFevents,1):indMAT(noOFevents,2);
                    if  timeaverage_out(frame) < prctile(pxls_traces(:,frame),5) 
@@ -309,9 +238,12 @@ end
 toc
 %%
 if size(newguideMAT,2) >= size(globald2ydx,2), newguideMAT(:,size(globald2ydx,2):end)=[]; end % this is to avoid having a matrix longer than the second derivative matrix ('globald2ydx')
+
+
+
+
 %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% CHECK %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Need to check the remaining one-frame events remainig as an artifact at the end of this section
-
 
 %% Re-adjusting the starting and ending points of TRUE and FALSE events in 'newguideMAT'
 %%% In this section, time points of the assorted TRUE and FALSE events are adjusted precisely; an event starts when there is a peak in the 2nd derivative,
@@ -476,7 +408,7 @@ case 'False_bef_True'
         finalguideMAT=newerguideMAT;                                                            % 'finalguideMAT' is made to make checking changes at each step easier to see (compared to 'newerguideMAT')
         %%%% adjusting the TRUE events' starting and ending points%%%%
         for roi= 1:size(finalguideMAT,1)
-          for frame= 2:size(finalguideMAT,2)-1
+            for frame= 2:size(finalguideMAT,2)-1
 
                             % adjust the starting point (for TRUE EVENTS) to the peak of the 2nd deriv.
                             if  (finalguideMAT(roi,frame)==1 && finalguideMAT(roi, frame-1)==0) || (finalguideMAT(roi, frame)==1 && finalguideMAT(roi, frame-1)==2) % this is the point at which an event begins
@@ -518,6 +450,8 @@ case 'False_bef_True'
         end, %clear roi
         toc, disp('You adjusted the False events before True ones, case 2')
 end
+
+
 %% Cleaning the traces by following the 'finalguideMAT'
 %%%%%%%%%%%%%%%%%% Needed variables from previous section : 1)Y  2)finalguideMAT  3)mask_ %%%%%%%%%%%%%%%%%%% 
 tic
@@ -564,7 +498,7 @@ for roi=1:size(finalguideMAT,1)
                         else,             xx=frame:frame+y(1)-1;          
                         end
                         clean_traces(roi,frame:xx(end))=globalyfit(roi,frame:xx(end));             %% just in case the very first event is false , make it equal the baseline because no other option is available
-%                     continue
+
                 elseif       finalguideMAT(roi,frame-1)==2                                                %% this is a trick to let the adjustment take place only at starting points instead of being contineously repeated till 
                     continue                                                                              %% the end of the video
                 else
@@ -576,58 +510,14 @@ for roi=1:size(finalguideMAT,1)
                     interp_line2=drawline([xx(1)-1,xx(end)], [globaltimeaverage(roi,xx(1)-1)-globaltimeaverage_out(roi,xx(1)-1) , globaltimeaverage(roi,xx(end))-globaltimeaverage_out(roi,xx(end))], [xx(1)-1:xx(end)]);
                     diffinROIoutROI = globaltimeaverage(roi,xx(1)-1:xx(end))  - globaltimeaverage_out(roi,xx(1)-1:xx(end)); 
                     clean_traces(roi,frame-1:frame+length(interp_line1)-2)=  diffinROIoutROI  +  interp_line1  - interp_line2 ;                %% take interpolated trace 
-                    %clean_traces(roi,frame-1:frame+length(interp_line1)-2)=    interp_line1;                %% take interpolated trace 
                 end
-                %clean_traces(roi,frame)=globalyfit(roi,frame);
-
         end
     end, clear frame pxls_traces
     disp(['ROI ' num2str(roi) ' is cleaned ;)' ])
 end, clear roi
-%clear no_of_k
+
 toc
- %% 
+%% 
 save(Savedir{file});
 clearvars -except videos ROIs Savedir
 end
-%% check performance
-%%%%%%%%%% 
-% figure, plot(pxls_traces','k'), hold on, plot(timeaverage,'red'),hold on , plot(timeaverage_out,'blue'), hold on , plot(yfit,'green')
-% yyaxis right, plot(finalguideMAT(roi,:),'blue'),hold on, plot(global_low_d1ydx(roi,:)+0.9,'red'), hold on, plot(1:6000,0.9,'k')
-% %%% % check how original and cleaned trace look like
-% figure, plot(pxls_traces','k'), hold on, plot(timeaverage,'red'),hold on , plot(clean_traces(roi,:),'blue'),title('original & clean trace')
-% yyaxis right, plot(finalguideMAT(roi,:),'blue'), hold on,plot(no_of_k_new(roi,:),'red')
-% yyaxis right, plot(1:5999,global_low_d1ydx(roi,:)+0.9,'red')
-
-% % % % SS= 2 ;
-% % % % figure, plot(globaltimeaverage(SS, :),'k'), hold on, plot(clean_traces(SS, :),'red')
-
-
-%% trying yfit
-%     
-%     int=300;       % interval length (in data points)
-%     for jj=1:size(timeaverage,2)/int
-%         %[~,ind]=find(timeaverage( (jj-1)*int+1 : (jj)*int )== (min(timeaverage( (jj-1)*int+1 : (jj)*int )))   ); %choose the min within the interval
-%         if   jj== size(timeaverage,2)/int 
-%              xindices(jj)= jj*int;
-%         else [~,ind]=find(timeaverage( (jj-1)*int+1 : (jj)*int +1)== (median(timeaverage( (jj-1)*int+1 : (jj)*int +1)))   ); %choose the median within the interval
-%              %[~,ind]=find(timeaverage( (jj-1)*int+1 : (jj)*int )== (min(timeaverage( (jj-1)*int+1 : (jj)*int )))   ); %choose the min within the interval
-%              xindices(jj)= ind(1) + (jj-1)*int ;  % add the index of the begining of the interval to get the index in the whole trace
-%         end, clear xindex
-%     end
-%     clear jj int ind
-%     %[ycorr,yfit] = bf((timeaverage)',xindices,'confirm');  % ploting the baseline 
-%     [ycorr,old_yfit] = bf((timeaverage)',[1,xindices,size(timeaverage,2)],0,'linear');
-%       
-
-
-%       'linear'   - (default) linear interpolation
-%       'nearest'  - nearest neighbor interpolation
-%       'next'     - next neighbor interpolation
-%       'previous' - previous neighbor interpolation
-%       'spline'   - piecewise cubic spline interpolation (SPLINE)
-%       'pchip'    - shape-preserving piecewise cubic interpolation
-%       'cubic'    - same as 'pchip'
-%       'v5cubic'  - the cubic interpolation from MATLAB 5, which does not
-%                    extrapolate and uses 'spline' if X is not equally
-%                    spaced.
