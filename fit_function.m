@@ -1,4 +1,6 @@
-function [old_yfit]=shehab_oldfit(timeaverage,interv_length)  
+%%% this function takes the average signal over time and the interval length and outputs a fitted baseline
+
+function [old_yfit]=fit_function(timeaverage,interv_length)  
     int=interv_length;                                                                                                       % interval length (in data points)
     for jj=1:size(timeaverage,2)/int
         %[~,ind]=find(timeaverage( (jj-1)*int+1 : (jj)*int )== (min(timeaverage( (jj-1)*int+1 : (jj)*int )))   );            % choose the min within the interval
@@ -12,5 +14,5 @@ function [old_yfit]=shehab_oldfit(timeaverage,interv_length)
     clear jj int ind
     %[ycorr,yfit] = bf((timeaverage)',xindices,'confirm');                                                                   % ploting the baseline 
     x=size(timeaverage,2);
-    [ycorr,old_yfit] = bf((timeaverage)', [1, [0.2*x 0.4*x 0.6*x 0.8*x], size(timeaverage,2)] ,0.2*x,'pchip');                       %linear fitting between chosen points
+    [ycorr,old_yfit] = bf((timeaverage)', [1, [0.2*x 0.4*x 0.6*x 0.8*x], size(timeaverage,2)] ,0.2*x,'pchip');               %linear fitting between chosen points
     
