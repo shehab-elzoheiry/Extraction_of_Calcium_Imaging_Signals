@@ -1,5 +1,6 @@
-%this function provides the region surrounding a ROI, the values of pxls in
-%each of these surrounding borders, median and the average of these pixels
+%this function outputs the region surrounding a ROI, the values of pxls in
+%each of surrounding borders, median and the average of these pixels
+
 function [border, timeaverage_out, timemedian_out, pxls_traces_out]= shehab_border_ofROI(mask_x, Y)
 newmask=zeros(size(Y,1),size(Y,2));
 thinout= bwboundaries(mask_x,'noholes');
