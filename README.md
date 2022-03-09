@@ -12,6 +12,8 @@ For a true signal to be detected (Supplementary Figure 3(a)), two conditions hav
 
 On the contrary, when contamination of the complete ROI occurs (Supplementary Figure 3(b)), transients from the surrounding region are high enough relative to the values of pixels within the ROI (higher than the lowest 5%), thereby, violating the second condition described above. In this case, the difference between activity outside and within the ROI during the events was linearly interpolated between the beginning and end of the relevant event. In the case of partial overlap contamination (Supplementary Figure 3(c)), violation of the first condition occurs, in which only a portion of pixels show elevated transients. These pixels are clustered using K-means and their fluorescent transients are discarded from calculating the final average fluorescent signal.
 
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
 ## Implementation on local machine:
 * Before running extract_denoise_calcium_imaging.m, you should generate ROIs (regions of interest) using imageJ or fiji.
 * Determine the directories for the .tif files, ROIs, and the directory where you want to save the output
